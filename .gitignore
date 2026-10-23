@@ -1,0 +1,26 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# node
+node_modules/
+remotion/out/
+
+# mídia e artefatos grandes (não versionar)
+*.mp4
+*.webm
+*.mov
+*.wav
+*.mp3
+workspaces/
+models/
+masks/
+tmp_cuts/
+
+# remotion public (gerado pelo pipeline)
+remotion/public/*
+!remotion/public/.gitkeep
+
+# SO
+.DS_Store
